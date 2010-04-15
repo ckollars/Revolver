@@ -35,8 +35,8 @@
 	position: absolute;
 	width: 50px;
 	height: 100px;
-	background-color: #000;
 	border: 2px solid #000;
+	margin-top: -50px;
 }
 .revolver-left-tab:hover {
 	padding-left: 5px;
@@ -44,10 +44,32 @@
 }
 .revolver-left-tab {
 	border-left: 0 none;
-	background-image: url( 'images/feedback-left-white.png' );
 	background-repeat: no-repeat;
 	background-position: 10px 10px;
+	left: 0;
 }
+.revolver-right-tab:hover {
+	padding-right: 5px;
+}
+.revolver-right-tab {
+	border-right: 0 none;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	right: 0;
+}
+.revolver-tab-text-left-white {
+	background-image: url( 'images/feedback-left-white.png' );
+}
+.revolver-tab-text-right-white {
+	background-image: url( 'images/feedback-right-white.png' );
+}
+.revolver-tab-text-left-black {
+	background-image: url( 'images/feedback-left-black.png' );
+}
+.revolver-tab-text-right-black {
+	background-image: url( 'images/feedback-right-black.png' );
+}
+
 #revolver-box input {
 	font-size: 16px;
 	font-weight: bold;
