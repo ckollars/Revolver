@@ -32,11 +32,12 @@
 }
 .revolver-tab {
 	display: block;
-	position: absolute;
+	position: fixed;
 	width: 50px;
 	height: 100px;
 	border: 2px solid #000;
 	margin-top: -50px;
+	top: 50%;
 }
 .revolver-left-tab:hover {
 	padding-left: 5px;
